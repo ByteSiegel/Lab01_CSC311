@@ -1,12 +1,13 @@
 package org.example;
-
+//extends the Vehicle class
 public class Car extends Vehicle{
 private String brand;
+    //constructor
     public Car(){
         super();
         this.brand="";
     }
-
+    //method to honk the horn
     public void honk(){
         System.out.println("Honk, honk!");
     }
@@ -20,7 +21,7 @@ private String brand;
         System.out.println(getBrand());
     }
 
-    //getters and setters
+    //getter and setter for the brand attribute
     public String getBrand() {
         return brand;
     }

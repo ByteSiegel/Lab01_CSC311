@@ -1,18 +1,19 @@
 package org.example;
 
 public class Vehicle {
+    //attributes of class Vehicle
     private int numberOfWheels;
     private String color;
     private float engineSize;
     private String fuelType;
-
+    //constructor
     public Vehicle(){
         numberOfWheels=0;
         color="";
         engineSize=0;
         fuelType="";
     }
-
+    //getters and setters
     public String getColor() {
         return color;
     }
